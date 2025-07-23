@@ -10,7 +10,7 @@ const SPONSORS = [
 
 export default function SponsorsSection() {
   return (
-    <section className="py-12 bg-gray-50 dark:bg-gray-800">
+    <section className="py-12 bg-gray-50 dark:bg-gray-800  backdrop-blur-sm border border-white/20 dark:border-gray-700/30 shadow-xl overflow-hidden">
       <div className="container mx-auto px-4">
         <motion.h2 
           initial={{ opacity: 0, y: 20 }}

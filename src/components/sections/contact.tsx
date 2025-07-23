@@ -3,7 +3,7 @@ import { FiMapPin, FiPhone, FiMail, FiClock } from 'react-icons/fi';
 
 export default function ContactSection() {
   return (
-    <section className="py-16">
+    <section className="py-16 ">
       <div className="container mx-auto px-4">
         <motion.div 
           initial={{ opacity: 0, y: 20 }}
