@@ -1,41 +1,57 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+---
 
-First, run the development server:
+# Landing Page Educativa con Next.js 15 + Capacitor
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+**🚀 Plataforma web y móvil para gestión educativa**  
+Aplicación moderna desarrollada con las últimas tecnologías web y adaptable a dispositivos móviles mediante Capacitor.
+
+## ✨ Características principales
+- **Tecnologías avanzadas**: Next.js 15, Tailwind CSS v4, ShadcnUI  
+- **Diseño responsive**: Adaptable a todos los dispositivos  
+- **Versión móvil**: Exportable a Android/iOS con Capacitor  
+- **Integración con Laravel**: Conexión completa con API Laravel para datos dinámicos  
+- **UI profesional**: Animaciones con Framer Motion, temas claro/oscuro  
+- **Componentes interactivos**:  
+  - Sliders animados  
+  - Acordeones FAQ con imágenes  
+  - Tabs dinámicos  
+  - Estadísticas en tiempo real  
+
+## 📱 Funcionalidades móviles
+- **Código nativo**: WebView optimizada con puente nativo  
+- **Plugins Capacitor**: Preparada para ampliar con funcionalidades nativas  
+- **Offline-ready**: Soporte para PWA (Progressive Web App)  
+
+## 🛠 Estructura del proyecto
+```
+├── Next.js 15 (App Router)
+├── Tailwind CSS v4 (Configuración zero-config)
+├── ShadcnUI (Componentes accesibles)
+├── Integración API Laravel
+├── Animaciones con Framer Motion
+└── Build móvil con Capacitor
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## 🚀 Cómo empezar
+```bash
+npm install
+npm run build
+npx cap add android/ios
+npx cap run android/ios
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 🌟 Casos de uso
+✔ Instituciones educativas  
+✔ Plataformas de gestión académica  
+✔ Sistemas de certificación digital  
+✔ Portales administrativos  
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+**📌 Nota**: Este proyecto incluye configuración lista para:  
+- Internacionalización (i18n)  
+- Registro de métricas  
+- Optimización SEO  
+- Modo oscuro automático  
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# datasistemasweb-front
-Landing Page DatasistemasWeb  🚀 Plataforma web/móvil para gestión educativa con:  Next.js 15, Tailwind v4, ShadcnUI  Animaciones con Framer Motion  Integración API Laravel  Exportable a Android/iOS (Capacitor)  Temas claro/oscuro, i18n  Sliders, FAQs, stats en tiempo real.
->>>>>>> 43074a9a8a34c11c0321d7a130128502f2bfdd26
