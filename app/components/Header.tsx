@@ -12,6 +12,8 @@ import {
 import { useTheme } from 'next-themes'
 import { Sun, Moon, LogIn, ChevronDown, Menu, X } from 'lucide-react'
 import { motion, AnimatePresence } from 'framer-motion'
+// Después
+import Image from 'next/image';
 
 interface NavItem {
   title: string
@@ -123,7 +125,7 @@ export default function Header() {
                         >
                           <div className="grid grid-cols-3">
                             <div className="col-span-1">
-                              <img 
+                              <Image 
                                 src={item.subItems[0].image} 
                                 alt={item.subItems[0].title}
                                 className="w-full h-full object-cover min-h-[200px]"

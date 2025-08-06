@@ -12,6 +12,8 @@ import {
   Globe,
   CheckCircle
 } from 'lucide-react'
+// Después
+import Image from 'next/image';
 
 export default function Features() {
   const [activeTab, setActiveTab] = useState(0)
@@ -158,7 +160,7 @@ export default function Features() {
                       </button>
                     </div>
                     <div className="rounded-lg overflow-hidden shadow-lg">
-                      <img 
+                      <Image 
                         src={tab.image} 
                         alt={tab.title}
                         className="w-full h-auto object-cover"

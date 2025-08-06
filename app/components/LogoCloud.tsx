@@ -3,7 +3,8 @@
 import { useEffect, useState } from 'react'
 import { motion } from 'framer-motion'
 import api from '@/lib/api'
-
+// Después
+import Image from 'next/image';
 interface Logo {
   id: string
   image_url: string
@@ -70,7 +71,7 @@ export default function LogoCloud() {
           >
             {[...logos, ...logos].map((logo, index) => (
               <div key={`${logo.id}-${index}`} className="flex-shrink-0">
-                <img 
+                <Image 
                   src={logo.image_url} 
                   alt={logo.name}
                   className="h-12 object-contain opacity-70 hover:opacity-100 transition-opacity"

@@ -5,7 +5,8 @@ import Link from 'next/link'
 import { Facebook, Twitter, Instagram, Linkedin, Mail, Phone, MapPin } from 'lucide-react'
 import { motion } from 'framer-motion'
 import api from '@/lib/api'
-
+// Después
+import Image from 'next/image';
 interface Client {
   id: string
   logo_url: string
@@ -163,7 +164,7 @@ export default function Footer() {
                   whileHover={{ y: -2, scale: 1.05 }}
                   className="bg-gray-800 p-2 rounded-lg flex items-center justify-center"
                 >
-                  <img 
+                  <Image 
                     src={client.logo_url} 
                     alt={client.name}
                     className="h-8 w-8 object-contain"

@@ -4,7 +4,8 @@ import { useState } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import * as Accordion from '@radix-ui/react-accordion'
 import { ChevronDown } from 'lucide-react'
-
+// Después
+import Image from 'next/image';
 export default function Faqs() {
   const faqs = [
     {
@@ -86,7 +87,7 @@ export default function Faqs() {
                           </p>
                         </div>
                         <div className="rounded-lg overflow-hidden shadow">
-                          <img 
+                          <Image 
                             src={faq.image} 
                             alt={faq.question}
                             className="w-full h-auto object-cover"

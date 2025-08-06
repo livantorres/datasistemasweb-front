@@ -3,7 +3,8 @@
 import { useState, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion'
 import api from '@/lib/api'
-
+// Después
+import Image from 'next/image';
 interface Slide {
   image_url: string
   title: string
@@ -103,7 +104,7 @@ export default function Hero() {
                   transition={{ duration: 0.5 }}
                   className="absolute inset-0"
                 >
-                  <img 
+                  <Image 
                     src={slides[currentSlide].image_url} 
                     alt={slides[currentSlide].title}
                     className="w-full h-full object-cover"
