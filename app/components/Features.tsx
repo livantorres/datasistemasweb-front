@@ -24,13 +24,13 @@ export default function Features() {
       id: 'notas',
       title: 'Plataforma de Notas',
       content: 'Sistema integral para la gestión académica que permite llevar el control de calificaciones, asistencia, horarios y más.',
-      image: '/plataforma-notas.jpg'
+      image: '/plataforma-notas.png'
     },
     {
       id: 'contable',
       title: 'Plataforma Contable',
       content: 'Herramienta especializada para la gestión financiera de instituciones educativas con reportes personalizados.',
-      image: '/plataforma-contable.jpg'
+      image: '/plataforma-contable.png'
     },
     {
       id: 'diplomas',
@@ -162,6 +162,8 @@ export default function Features() {
                     <div className="rounded-lg overflow-hidden shadow-lg">
                       <Image 
                         src={tab.image} 
+                        width={500}
+                        height={300}
                         alt={tab.title}
                         className="w-full h-auto object-cover"
                       />
